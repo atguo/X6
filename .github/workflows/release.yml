@@ -44,7 +44,7 @@ jobs:
         run: yarn test
 
       - name: 🔑　Generate Token
-        uses: wow-actions/use-app-token@v1
+        uses: wow-actions/use-app-token@v2
         with:
           app_id: ${{ secrets.APP_ID }}
           private_key: ${{ secrets.PRIVATE_KEY }}
